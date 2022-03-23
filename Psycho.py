@@ -88,16 +88,16 @@ print  """
 
 
 
-\x1b[1;92m  ____  ____  ___   \x1b[1;92m  ___  _   _  ____ 
-\x1b[1;93m (  _ \(_  _)/ __)  \x1b[1;92m / __)( )_( )(_  _)
-\x1b[1;93m  )___/ _)(_( (__(  \x1b[1;92m (__  ) _ (  _)(_ 
-\x1b[1;93m  (__)  (____)\___) \x1b[1;92m \___)(_) (_)(____)
+\x1b[1;93m  ____  ____  ___   \x1b[1;96m  ___  _   _  ____ 
+\x1b[1;93m (  _ \(_  _)/ __)  \x1b[1;96m / __)( )_( )(_  _)
+\x1b[1;93m  )___/ _)(_( (__(  \x1b[1;96m (__  ) _ (  _)(_ 
+\x1b[1;93m  (__)  (____)\___) \x1b[1;96m \___)(_) (_)(____)
     """
 print '\x1b[1;96m    Dalkhor Facebook Account Cloner'
 print '\x1b[1;97m ╔═══════════════════════════════════════════╗'
 
-print'\x1b[1;97m ║\x1b[1;92m decrypted by \x1b[1;96m : \x1b[1;93m PSYCHO PICCHI \x1b[1;97m   ║'
-print'\x1b[1;97m ║\x1b[1;92m Facebook \x1b[1;96m     : \x1b[1;93m PSYCHO PICCHI \x1b[1;97m   ║'
+print'\x1b[1;97m ║\x1b[1;96m decrypted by \x1b[1;96m : \x1b[1;93m PSYCHO PICCHI \x1b[1;97m   ║'
+print'\x1b[1;97m ║\x1b[1;96m Facebook \x1b[1;96m     : \x1b[1;93m PSYCHO PICCHI \x1b[1;97m   ║'
 time.sleep(0.05)    
 print '\x1b[1;97m ╚═══════════════════════════════════════════╝'
 time.sleep(0.05)   
