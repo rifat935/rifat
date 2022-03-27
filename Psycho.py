@@ -90,13 +90,17 @@ print  """
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                         
 
-\033[32m______________________________________________________
-\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI
-\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
-\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;95m[*] \033[1;95mUPDATE    : FASTER NOW 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
-\033[32m_____________________________________________________
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 """
 
@@ -115,13 +119,17 @@ logo1 = """
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                          
           
-\033[32m__________________________________________________
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI
-\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
-\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;95m[*] \033[1;95mUPDATE    : FASTER NOW 
-\033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
-\033[32m_________________________________________________
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 """
 logo2 = """
@@ -136,13 +144,17 @@ logo2 = """
   |      o   /v           v\    |           o       o          o       o    |         |  
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                                                                         
-\033[32m_________________________________________________
-\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI
-\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
-\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;95m[*] \033[1;95mUPDATE    : FASTER NOW 
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
-\033[32m_________________________________________________
+\033[32m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 """
 
@@ -157,15 +169,15 @@ def lisensi():
 def login():
     os.system('clear')
     print logo1
-    print "\033[1;32m[1]\x1b[1;33mSTART( \033[1;32mHACKING)"
+    print "\033[1;93m[1]\x1b[1;33mSTART( \033[1;32mHACKING)"
     time.sleep(0.05)
-    print "\033[1;32m[2]\x1b[1;34mUPDATE (2.0)"
+    print "\033[1;96m[2]\x1b[1;34mUPDATE (2.0)"
     time.sleep(0.05)
     print '\x1b[1;32m[0]\033[1;31mExit '
     pilih_login()
 
 def pilih_login():
-    peak = raw_input("\n\033[1;95mCHOOSE: \033[1;34m")
+    peak = raw_input("\n\033[1;91mCHOOSE: \033[1;34m")
     if peak =="":
         print "\x1b[1;97mFill In Correctly"
         pilih_login()
@@ -174,7 +186,7 @@ def pilih_login():
 def Zeek():
     os.system('clear')
     print logo1
-    print '\x1b[1;33m[1]START CLONING 2004-2009'
+    print '\x1b[1;34m[1]START CLONING 2004-2009'
     time.sleep(0.10)
     print '\x1b[1;33m[0]back'
    
@@ -182,7 +194,7 @@ def Zeek():
     action()
 
 def action():
-    peak = raw_input('\n\033[1;32mCHOOSE :\033[1;32m')
+    peak = raw_input('\n\033[1;31mCHOOSE :\033[1;32m')
     if peak =='':
         print '[!] Fill In Correctly'
         action()
@@ -192,7 +204,7 @@ def action():
         print "(1) 2004-2009 [Enter - 00]"+'\n'
         print '\x1b[1;35mEnter only 00 TO CLONE 2004-2009 ACCOUNT'
         try:
-            c = raw_input("\033[1;32mCHOOSE : ")
+            c = raw_input("\033[1;31mCHOOSE : ")
             k="1000"
             idlist = ('.txt')
             for line in open(idlist,"r").readlines():
@@ -208,10 +220,10 @@ def action():
         action()
     print 50* '\033[1;93m-'
     xxx = str(len(id))
-    jalan ('\033[1;32mTOTAL OLD IDZ NUMBER: '+xxx)
-    jalan ('\033[1;32mCODE YOU CHOOSE '+c)
-    jalan ("\033[1;32mWait A While \x1b[1;32mStart Cracking...")
-    jalan ("\033[1;33mTo Stop Process Press Ctrl+z")
+    jalan ('\033[1;34mTOTAL OLD ID NUMBER: '+xxx)
+    jalan ('\033[1;35mCODE YOU CHOOSE '+c)
+    jalan ("\033[1;31mWait A While \x1b[1;32mStart Cracking...")
+    jalan ("\033[1;32mTo Stop Process Press Ctrl+z")
     print 50* '\033[1;93m-'
     def main(arg):
         global cpb,oks
