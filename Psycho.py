@@ -169,7 +169,7 @@ def lisensi():
 def login():
     os.system('clear')
     print logo1
-    print "\033[1;91m[1]\x1b[1;31mSTART \033[1;32m>HACKING<"
+    print "\033[1;93m[1]\x1b[1;93mSTART \033[1;32m>HACKING<"
     time.sleep(0.05)
     print "\033[1;96m[2]\x1b[1;96mUPDATE \033[1;93m(1.6)"
     time.sleep(0.05)
@@ -201,7 +201,7 @@ def action():
     elif peak =="1":              
         os.system("clear")
         print logo2
-        print "(1) 2004-2009 [Enter - 00]"+'\n'
+        print "\x1b[1;33m(1) 2004-2009 [Enter - 00]"+'\n'
         print '\x1b[1;35mEnter only 00 TO CLONE 2004-2009 ACCOUNT'
         try:
             c = raw_input("\033[1;95mCHOOSE : ")
