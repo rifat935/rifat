@@ -1,7 +1,7 @@
 #coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,getpass
 os.system('rm -rf .txt')
-for n in range(90000):
+for n in range(999999):
 
     nmbr = random.randint(111111111,999999999)
     
@@ -90,13 +90,11 @@ print  """
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                         
 \033[33m______________________________________________________
-
-[*] DEVELOPER : PSYCHO PICCHI
-[*] FACEBOOK  : PSYCHO PICCHI
-[*] GITHIB    : PSYCHO-PICCHI
-[*] TOOLS     : OLD ID CLONING 2004-2009
-
-[*] UPDATE : FASTER NOW
+[*] \033[1;92mDEVELOPER : PSYCHO PICCHI
+[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
+[*] \033[1;94mGITHIB    : PSYCHO-PICCHI
+[*] \033[1;95mUPDATE    : FASTER NOW
+[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
 \033[32m_____________________________________________________
 """
 
@@ -116,13 +114,11 @@ logo1 = """
                                                                                          
           
 \033[33m______________________________________________________
-
-[*] DEVELOPER : PSYCHO PICCHI
-[*] FACEBOOK  : PSYCHO PICCHI
-[*] GITHIB    : PSYCHO PICCHI
-[*] TOOLS     : OLD ID CLONING 2004-2009
-
-[*] UPDATE : FASTER NOW
+[*] \033[1;92mDEVELOPER : PSYCHO PICCHI
+[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
+[*] \033[1;94mGITHIB    : PSYCHO PICCHI
+[*] \033[1;95mUPDATE    : FASTER NOW
+[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
 \033[32m_____________________________________________________
 
 """
@@ -139,13 +135,11 @@ logo2 = """
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                                                                         
 \033[33m______________________________________________________
-
-[*] DEVELOPER : PSYCHO PICCHI
-[*] FACEBOOK  : PSYCHO PICCHI
-[*] GITHIB    : PSYCHO PICCHI
-[*] TOOLS     : OLD ID CLONING 2004-2009
-
-[*] UPDATE : FASTER NOW
+[*] \033[1;92mDEVELOPER : PSYCHO PICCHI
+[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
+[*] \033[1;94mGITHIB    : PSYCHO PICCHI
+[*] \033[1;95mUPDATE    : FASTER NOW 
+[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
 \033[32m_____________________________________________________
 
 """
