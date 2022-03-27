@@ -169,9 +169,9 @@ def lisensi():
 def login():
     os.system('clear')
     print logo1
-    print "\033[1;91m[1]\x1b[1;31mSTART( \033[1;32mHACKING)"
+    print "\033[1;91m[1]\x1b[1;31mSTART \033[1;32m>HACKING<"
     time.sleep(0.05)
-    print "\033[1;96m[2]\x1b[1;96mUPDATE (2.0)"
+    print "\033[1;96m[2]\x1b[1;96mUPDATE \033[1;93m(1.6)"
     time.sleep(0.05)
     print '\x1b[1;34m[0]\033[1;94mExit '
     pilih_login()
