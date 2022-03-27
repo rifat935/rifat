@@ -89,13 +89,13 @@ print  """
   |      o   /v           v\    |           o       o          o       o    |         |  
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                         
-\033[33m______________________________________________________
-[*] \033[1;92mDEVELOPER : PSYCHO PICCHI
-[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
-[*] \033[1;94mGITHIB    : PSYCHO-PICCHI
-[*] \033[1;95mUPDATE    : FASTER NOW
-[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
-\033[32m_____________________________________________________
+print 50* '\033[1;92m-'
+\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI
+\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
+\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO-PICCHI
+\033[1;95m[*] \033[1;95mUPDATE    : FASTER NOW
+\033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
+print 50* '\033[1;92m-'
 """
 
 ####Logo####
@@ -113,12 +113,12 @@ logo1 = """
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                          
           
-\033[33m______________________________________________________
-[*] \033[1;92mDEVELOPER : PSYCHO PICCHI
-[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
-[*] \033[1;94mGITHIB    : PSYCHO PICCHI
-[*] \033[1;95mUPDATE    : FASTER NOW
-[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
+\033[32m______________________________________________________
+\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI
+\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
+\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI
+\033[1;95m[*] \033[1;95mUPDATE    : FASTER NOW
+\033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
 \033[32m_____________________________________________________
 
 """
@@ -134,12 +134,12 @@ logo2 = """
   |      o   /v           v\    |           o       o          o       o    |         |  
  / \  __/>  />             <\  / \ _\o__/_  <\__ __/>          <\__ __/>   / \       / \ 
                                                                                                                                         
-\033[33m______________________________________________________
-[*] \033[1;92mDEVELOPER : PSYCHO PICCHI
-[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
-[*] \033[1;94mGITHIB    : PSYCHO PICCHI
-[*] \033[1;95mUPDATE    : FASTER NOW 
-[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
+\033[32m______________________________________________________
+\033[1;94m[*] \033[1;94mDEVELOPER : PSYCHO PICCHI
+\033[1;93m[*] \033[1;93mFACEBOOK  : PSYCHO PICCHI
+\033[1;92m[*] \033[1;92mGITHIB    : PSYCHO PICCHI
+\033[1;95m[*] \033[1;95mUPDATE    : FASTER NOW 
+\033[1;96m[*] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
 \033[32m_____________________________________________________
 
 """
