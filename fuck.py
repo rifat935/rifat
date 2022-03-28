@@ -5,7 +5,7 @@
 
 #AUTHOR : Shuvo
 #OPEN SOURCE :)
- CREDIT TO MR. ERROR
+#CREDIT TO MR. ERROR
 
 
 try:
