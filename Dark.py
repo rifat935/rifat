@@ -115,21 +115,18 @@ def action():
     if bch == '':
         print '[!] Fill in correctly'
         action()
-    elif bch == '1':
-        os.system('clear')
+    elif mx=='5':
+    	os.system ('clear')
         print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m017'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
-
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
+        print ("")
+        print ("")
+        print ("")
+        print ("")
+        print ("\x1b[1;92m        Congratulations Bro Your Pro")
+        print ("\x1b[1;93m        Member In unknown free or paid Commands ")
+        print ("\x1b[1;91m        ENJOY Brother Psycho Picchi Support ")
+        time.sleep(3.5)
+        main_system() 
 
     elif bch == '2':
         os.system('clear')
