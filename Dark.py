@@ -66,13 +66,13 @@ def cb():
     os.system('clear')
 
 
-logo = ' Wait Kha Akto por logo dimu  '
+logo = ' Wait Kha Akto por logo dimu 2 din lagbo ghuma ja   '
 back = 0
 successful = []
 cpb = []
 oks = []
 id = []
-print '\033[1;96mREGION      : MAGIBAZ BOX'
+print '\033[1;96m  REGION    : MAGIBAZ BOX'
 print '\033[1;93mVAI BROTHER : ALL KOLIXA '
 
 
@@ -83,20 +83,26 @@ os.system('xdg-open https://www.facebook.com/4FR1D1.143')
 def menu():
     os.system('clear')
     print logo
-    print '\x1b[1;90mONLY \x1b[1;90m11 \x1b[1;90mDIGITS HACKABLE ACCOUNTS ARE AVAILABLE'
+    print 50 * '~'
+    jalan('\x1b[1;92m[1] OVI ISLAM') 
+    print 50 * '~'
+    jalan('\x1b[1;93m[2] SHAWON MALLIK') 
+    print 50 * '~'
+    jalan('\x1b[1;94m[3] PINIK HOSSEN') 
+    print 50 * '~'
+    jalan('\x1b[1;95m[4] RAFI MAHMUD') 
+    print 50 * '~'
+    jalan('\x1b[1;96m[5] SHAHADAT HOSSEN') 
+    print 50 * '~'
+    jalan('\x1b[1;91m[6] ORNIL FARABI RIFAT') 
+    print 50 * '~'
+    jalan('\x1b[1;97m[7] ABAD XXX COM') 
+    print 50 * '~' 
     print
-    jalan('\x1b[1;92m[1]  \x1b[1;92mOVI ISLAM')
-    jalan('\x1b[1;96m[2]  \x1b[1;96mSHAWON MALLIK')
-    jalan('\x1b[1;92m[3]  \x1b[1;92mPINIK HOSSEN')
-    jalan('\x1b[1;96m[4]  \x1b[1;96mRAFI MAHMUD')
-    jalan('\x1b[1;92m[5]  \x1b[1;92mSHAHADAT HOSSEN')
-    jalan('\x1b[1;96m[6]  \x1b[1;96mORNIL FARABI RIFAT')
-    jalan('\x1b[1;92m[7]  \x1b[1;92mABAD XXX')
+    jalan('\x1b[1;91m[8] VAI BROTHER NAME')
+    jalan('\x1b[1;92m[9] SELECT VAI BROTHER NAME')
     print
-    jalan('\x1b[1;90m[8] VAI BROTHER NAME')
-    jalan('\x1b[1;90m[9] SELECT VAI BROTHER NAME')
-    print
-    jalan('\x1b[1;97m[00]  EXIT')
+    jalan('\x1b[1;90m[00]  EXIT')
     print 50 * '-'
     action()
 
@@ -104,7 +110,7 @@ def menu():
 def action():
     global cpb
     global oks
-    bch = raw_input('\n\x1b[1;92m\xe2\x96\x84\xef\xb8\xbb\xcc\xb7\xcc\xbf\xe2\x94\xbb\xcc\xbf\xe2\x95\x90\xe2\x94\x81\xe4\xb8\x80   ')
+    bch = raw_input('\n\x1b[1;92m Select Kor  ')
     if bch == '':
         print '[!] Fill in correctly'
         action()
