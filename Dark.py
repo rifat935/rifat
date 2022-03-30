@@ -112,11 +112,10 @@ def action():
     global cpb
     global oks
     bch = raw_input('\n\x1b[1;94mSELECT VAI BROTHER NAME > ')
-        elif mx=='1':
-        os.system("xdg-open https://wa.me/+8801926890544")
-        time.sleep(3)
-        main_system()
-        
+    if bch == '':
+        print '[!] Fill in correctly'
+        action()
+        print Dj
         
     elif bch == '2':
         os.system('clear')
