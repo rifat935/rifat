@@ -84,7 +84,7 @@ def menu():
     os.system('clear')
     print logo
     print 50 * '~'
-    jalan('\x1b[1;92m[1] OVI ISLAM') 
+    jalan('\x1b[1;91m[1] OVI ISLAM') 
     print 50 * '~'
     jalan('\x1b[1;93m[2] SHAWON MALLIK') 
     print 50 * '~'
@@ -94,14 +94,14 @@ def menu():
     print 50 * '~'
     jalan('\x1b[1;96m[5] SHAHADAT HOSSEN') 
     print 50 * '~'
-    jalan('\x1b[1;91m[6] ORNIL FARABI RIFAT') 
+    jalan('\x1b[1;83m[6] ORNIL FARABI RIFAT') 
     print 50 * '~'
-    jalan('\x1b[1;97m[7] ABAD XXX COM') 
+    jalan('\x1b[1;97m[7] SHAJIDUL ISLAM ABIR') 
     print 50 * '~' 
-    print
-    jalan('\x1b[1;91m[8] VAI BROTHER NAME')
-    jalan('\x1b[1;92m[9] SELECT VAI BROTHER NAME')
-    print
+    jalan('\x1b[1;91m[8] NIL MAHMUD') 
+    print 50 * '~'
+    jalan('\x1b[1;92m[9] ABAD XXX COM') 
+    print 50 * '~'
     jalan('\x1b[1;90m[00]  EXIT')
     print 50 * '-'
     action()
@@ -110,7 +110,7 @@ def menu():
 def action():
     global cpb
     global oks
-    bch = raw_input('\n\x1b[1;92m Select Kor  ')
+    bch = raw_input('\n\x1b[1;92mSELECT VAI BROTHER NAME > ')
     if bch == '':
         print '[!] Fill in correctly'
         action()
