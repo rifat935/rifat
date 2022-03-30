@@ -88,19 +88,19 @@ def menu():
     print 50 * '~'
     jalan('\x1b[1;92m[2] SHAWON MALLIK') 
     print 50 * '~'
-    jalan('\x1b[1;91m[3] PINIK HOSSEN') 
+    jalan('\x1b[1;93m[3] PINIK HOSSEN') 
     print 50 * '~'
     jalan('\x1b[1;92m[4] RAFI MAHMUD') 
     print 50 * '~'
-    jalan('\x1b[1;91m[5] SHAHADAT HOSSEN') 
+    jalan('\x1b[1;94m[5] SHAHADAT HOSSEN') 
     print 50 * '~'
-    jalan('\x1b[1;82m[6] ORNIL FARABI RIFAT') 
+    jalan('\x1b[1;92m[6] ORNIL FARABI RIFAT') 
     print 50 * '~'
-    jalan('\x1b[1;91m[7] SHAJIDUL ISLAM ABIR') 
+    jalan('\x1b[1;95m[7] SHAJIDUL ISLAM ABIR') 
     print 50 * '~' 
     jalan('\x1b[1;92m[8] NIL MAHMUD') 
     print 50 * '~'
-    jalan('\x1b[1;91m[9] ABAD XXX COM') 
+    jalan('\x1b[1;96m[9] ABAD XXX COM') 
     print
     print 50 * '-'
     jalan('\x1b[1;93m[00]  EXIT')
