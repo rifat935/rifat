@@ -121,7 +121,7 @@ def main_input():
      print ("\x1b[1;93mName : Ovi Islam")
      print ("\x1b[1;96mHometown : Lakshmifur Chittagong")
      print ("\x1b[1;94mStudy : Inter fast year") 
-     print ("\x1b[1;95mAge : 17
+     print ("\x1b[1;95mAge : 17")
      print ("\x1b[1;92mRelationship: Single")
      time.sleep(3.5)
      main_system() 
