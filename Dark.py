@@ -113,23 +113,17 @@ def menu():
 def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
     if mx=='1':
-        print ""
-        print('\033[1;94mCheking Subscription ....\033[1;92m')
-        time.sleep(3)
-        fb_menu()
-    elif mx=='2':
-        print ""
-        print('\033[1;94mCheking Subscription ....\033[1;97m')
-        time.sleep(3)
-        numcloning() 
-        print 'Name---------: Ovi Islam' 
-        print 'Hometown-----: Lakshmifur Chittagong' 
-        print 'Study--------: Inter fast year' 
-        print 'Age----------: 17' 
-        print 'Relationship-: Single'
-        print '[!] Fill in correctly'
-        action()
-        print 
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("")
+     print ("")
+     print ("")
+     print ("\x1b[1;92m        Congratulations Bro Your Pro")
+     print ("\x1b[1;93m        Member In unknown free or paid Commands ")
+     print ("\x1b[1;91m        ENJOY Brother Psycho Picchi Support ")
+     time.sleep(3.5)
+     main_system() 
         
     elif bch == '2':
         os.system('clear')
