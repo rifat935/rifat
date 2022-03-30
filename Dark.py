@@ -1,6 +1,3 @@
-# Bangladesh-7-digit-All-Sim-Cloner
-
-# FACEBOOK :MD RIFAT HASAN REAE 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
 
@@ -10,9 +7,6 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-os.system('clear')
-
-psb('\x1b[1;32m VERTUAL TOP MAGIBAZ DER ADDA ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
@@ -64,6 +58,33 @@ def t():
 
 def cb():
     os.system('clear')
+
+   print  """
+   \033[36m
+ 
+ (    (        )            )     )    
+ )\ ) )\ )  ( /(    (    ( /(  ( /(    
+(()/((()/(  )\())   )\   )\()) )\())   
+ /(_))/(_))((_)\  (((_) ((_)\ ((_)\    
+(_)) (_)) __ ((_) )\___  _((_)  ((_)   
+| _ \/ __|\ \ / /((/ __|| || | / _ \   
+|  _/\__ \ \ V /  | (__ | __ || (_) |  
+|_|  |___/  |_|    \___||_||_| \___/   
+                                       
+\033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;94m[✍︎] \033[1;94mDEVELOPER : PSYCHO PICCHI 
+\033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;93m[✍︎] \033[1;93mFACEBOOK  : PSYCHO PICCHI 
+\033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;92m[✍︎] \033[1;92mGITHIB    : PSYCHO PICCHI 
+\033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;95m[✍︎] \033[1;95mUPDATE    : FASTER NOW 
+\033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\033[1;96m[✍︎] \033[1;96mTOOLS     : OLD ID CLONING 2004-2009
+\033[91m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+"""
+
 
 
 logo = ' Wait Kha Akto por logo dimu 2 din lagbo ghuma ja   '
