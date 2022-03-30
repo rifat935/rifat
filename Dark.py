@@ -12,20 +12,6 @@ def psb(z):
 
 os.system('clear')
 
-print """
-\033[1;93m             
-\033[1;91m────────────────────────────────────────────────────
-\033[1;92mName : Ovi islam 
-
-\033[1;93mHometown : Lakshmifur Chittagong 
-
-\033[1;94mStudy : Inter fast year 
-
-\033[1;95mAge : 17
-
-\033[1;96mRelationship : Single
-\033[1;91m────────────────────────────────────────────────────
-
 psb('\x1b[1;32m VERTUAL TOP MAGIBAZ DER ADDA ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
@@ -80,15 +66,15 @@ def cb():
     os.system('clear')
 
 
-logo = '__  __    _    _   _    _    ____ ___\n|  \/  |  / \  | | | |  / \  |  _ \_ _|\n| |\/| | / _ \ | |_| | / _ \ | | | | |\n| |  | |/ ___ \|  _  |/ ___ \| |_| | |\n|_|  |_/_/   \_\_| |_/_/   \_\____/___|'
+logo = ' Wait Kha Akto por logo dimu  '
 back = 0
 successful = []
 cpb = []
 oks = []
 id = []
-print 'AUTHOR : Md Rifat Hasan Rear'
-print 'FACEBOOK :https://www.facebook.com/Rifat.Vau.Official'
-print 'GITHUB : github.com/Rifat-Vau'
+print '\033[1;96mREGION      : MAGIBAZ BOX'
+print '\033[1;93mVAI BROTHER : ALL KOLIXA '
+
 
 
 name = raw_input('\x1b[1;92m\x1b[1;92m  ')
@@ -99,16 +85,16 @@ def menu():
     print logo
     print '\x1b[1;90mONLY \x1b[1;90m11 \x1b[1;90mDIGITS HACKABLE ACCOUNTS ARE AVAILABLE'
     print
-    jalan('\x1b[1;92m[1]  \x1b[1;92mGRAMEENPHONE')
-    jalan('\x1b[1;96m[2]  \x1b[1;96mROBI')
-    jalan('\x1b[1;92m[3]  \x1b[1;92mAIRTEL')
-    jalan('\x1b[1;96m[4]  \x1b[1;96mBANGLALINK')
-    jalan('\x1b[1;92m[5]  \x1b[1;92mTELETALK')
-    jalan('\x1b[1;96m[6]  \x1b[1;96mGRAMEENPHONE \x1b[1;91m(NEW)')
-    jalan('\x1b[1;92m[7]  \x1b[1;92mBANGLALINK \x1b[1;91m(NEW)')
+    jalan('\x1b[1;92m[1]  \x1b[1;92mOVI ISLAM')
+    jalan('\x1b[1;96m[2]  \x1b[1;96mSHAWON MALLIK')
+    jalan('\x1b[1;92m[3]  \x1b[1;92mPINIK HOSSEN')
+    jalan('\x1b[1;96m[4]  \x1b[1;96mRAFI MAHMUD')
+    jalan('\x1b[1;92m[5]  \x1b[1;92mSHAHADAT HOSSEN')
+    jalan('\x1b[1;96m[6]  \x1b[1;96mORNIL FARABI RIFAT')
+    jalan('\x1b[1;92m[7]  \x1b[1;92mABAD XXX')
     print
-    jalan('\x1b[1;90m[8] FIND ME ON FACEBOOK PAGE')
-    jalan('\x1b[1;90m[9] TO CONTACT ADMIM')
+    jalan('\x1b[1;90m[8] VAI BROTHER NAME')
+    jalan('\x1b[1;90m[9] SELECT VAI BROTHER NAME')
     print
     jalan('\x1b[1;97m[00]  EXIT')
     print 50 * '-'
