@@ -113,7 +113,8 @@ def action():
     global oks
     bch = raw_input('\n\x1b[1;94mSELECT VAI BROTHER NAME > ')
     if bch == '':
-        print '[!] Fill in correctly'
+        print '[!] Fill in correctly' 
+        print 'Name : Ovi Islam
         action()
         print Dj
         
