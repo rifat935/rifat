@@ -11,7 +11,7 @@ def psb(z):
         time.sleep(0.03)
 
 os.system('clear')
-psb('\x1b[1;32m KING OF VIRTUAL - VIRTUAL TOP MAGIBAZ DER ADDA - OSLIM POLAPAIN SUSIL NOT ALLOW - MAGIBAZ POLAPAIN MAGI XUDE - ')
+psb('\x1b[1;32m KING OF VIRTUAL ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
@@ -74,23 +74,7 @@ id = []
 print 'AUTHOR : Md Rifat Hasan Rear'
 print 'FACEBOOK :https://www.facebook.com/Rifat.Vau.Official'
 print 'GITHUB : github.com/Rifat-Vau'
-CorrectUsername = 'MR12'
-CorrectPassword = 'Rifat-Vau'
-loop = 'true'
-while loop == 'true':
-    username = raw_input('\x1b[1;91m \x1b[1;92mUSERNME \x1b[1;92m: \x1b[1;92m')
-    if username == CorrectUsername:
-        password = raw_input('\x1b[1;91m \x1b[1;92mPASSWORD \x1b[1;92m: \x1b[1;92m')
-        if password == CorrectPassword:
-            print 'Logged in successfully as ' + username
-            time.sleep(2)
-            loop = 'false'
-        else:
-            print '\x1b[1;97mWrong Password'
-            os.system('xdg-open https://www.facebook.com/4FR1D1.143')
-    else:
-        print '\x1b[1;97mWrong Username'
-        os.system('xdg-open https://www.facebook.com/4FR1D1.143')
+
 
 name = raw_input('\x1b[1;92m\x1b[1;92m Enter Your Name: ')
 os.system('xdg-open https://www.facebook.com/4FR1D1.143')
