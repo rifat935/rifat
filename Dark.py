@@ -112,22 +112,12 @@ def action():
     global cpb
     global oks
     bch = raw_input('\n\x1b[1;94mSELECT VAI BROTHER NAME > ')
-    if bch == '':
-        print '[!] Fill in correctly'
-        action()
-    elif mx=='5':
-    	os.system ('clear')
-        print logo
-        print ("")
-        print ("")
-        print ("")
-        print ("")
-        print ("\x1b[1;92m        Congratulations Bro Your Pro")
-        print ("\x1b[1;93m        Member In unknown free or paid Commands ")
-        print ("\x1b[1;91m        ENJOY Brother Psycho Picchi Support ")
-        time.sleep(3.5)
-        main_system() 
-
+        elif mx=='1':
+        os.system("xdg-open https://wa.me/+8801926890544")
+        time.sleep(3)
+        main_system()
+        
+        
     elif bch == '2':
         os.system('clear')
         print logo
