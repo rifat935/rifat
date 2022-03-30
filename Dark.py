@@ -114,9 +114,9 @@ def action():
     bch = raw_input('\n\x1b[1;94mSELECT VAI BROTHER NAME > ')
     if bch == '':
         print '[!] Fill in correctly' 
-        print 'Name : Ovi Islam
+        print 'Name Ovi Islam'
         action()
-        print Dj
+        print 
         
     elif bch == '2':
         os.system('clear')
