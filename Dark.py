@@ -107,12 +107,13 @@ def menu():
     print 50 * '-'
     action()
 
-
-def action():
-    global cpb
-    global oks
-    bch = raw_input('\n\x1b[1;94mSELECT VAI BROTHER NAME > ')
-    if bch == '':
+def main_input():
+    mx=raw_input('\n\x1b[1;94mSELECT VAI BROTHER NAME > ') 
+    if mx=='1':
+        print ""
+        print('\033[1;94mCheking Subscription ....\033[1;92m')
+        time.sleep(3)
+        fb_menu() 
         print 'Name---------: Ovi Islam' 
         print 'Hometown-----: Lakshmifur Chittagong' 
         print 'Study--------: Inter fast year' 
