@@ -10,8 +10,8 @@ def psb(z):
         sys.stdout.flush()
         time.sleep(0.03)
 
-
-psb('\x1b[1;32mBANGLADESH 7 DIGIT CLONING START PLEASE WAIT ..........')
+os.system('clear')
+psb('\x1b[1;32m KING OF VIRTUAL - VIRTUAL TOP MAGIBAZ DER ADDA - OSLIM POLAPAIN SUSIL NOT ALLOW - MAGIBAZ POLAPAIN MAGI XUDE - ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
