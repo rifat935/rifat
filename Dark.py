@@ -11,7 +11,22 @@ def psb(z):
         time.sleep(0.03)
 
 os.system('clear')
-psb('\x1b[1;32m KING OF VIRTUAL ')
+
+print """
+\033[1;93m             
+\033[1;91m────────────────────────────────────────────────────
+\033[1;92mName : Ovi islam 
+
+\033[1;93mHometown : Lakshmifur Chittagong 
+
+\033[1;94mStudy : Inter fast year 
+
+\033[1;95mAge : 17
+
+\033[1;96mRelationship : Single
+\033[1;91m────────────────────────────────────────────────────
+
+psb('\x1b[1;32m VERTUAL TOP MAGIBAZ DER ADDA ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
@@ -76,7 +91,7 @@ print 'FACEBOOK :https://www.facebook.com/Rifat.Vau.Official'
 print 'GITHUB : github.com/Rifat-Vau'
 
 
-name = raw_input('\x1b[1;92m\x1b[1;92m Enter Your Name: ')
+name = raw_input('\x1b[1;92m\x1b[1;92m  ')
 os.system('xdg-open https://www.facebook.com/4FR1D1.143')
 
 def menu():
