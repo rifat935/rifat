@@ -57,10 +57,10 @@ def t():
 
 
 def cb():
-    os.system('clear')
+os.system('clear')
 
-   print  """
-   \033[36m
+print  """
+\033[36m
  
  (    (        )            )     )    
  )\ ) )\ )  ( /(    (    ( /(  ( /(    
