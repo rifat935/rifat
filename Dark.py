@@ -115,13 +115,13 @@ def main_input():
     if mx=='1':
      os.system ('clear')
      print logo
+
      print ("")
-     print ("")
-     print ("")
-     print ("")
-     print ("\x1b[1;92m        Congratulations Bro Your Pro")
-     print ("\x1b[1;93m        Member In unknown free or paid Commands ")
-     print ("\x1b[1;91m        ENJOY Brother Psycho Picchi Support ")
+     print ("\x1b[1;93mName--------: Ovi Islam")
+     print ("\x1b[1;96mHometown----: Lakshmifur Chittagong")
+     print ("\x1b[1;94mStudy-------: Inter fast year") 
+     print ("\x1b[1;95mAge---------: 17
+     print ("\x1b[1;92mRelationship: Single")
      time.sleep(3.5)
      main_system() 
         
