@@ -91,9 +91,9 @@ os.system('xdg-open https://facebook.com/groups/1431140047264079/')
 def menu():
     os.system('clear')
     print logo  
-    print '\x1b[1;91m50 * '~' '
+    print 50 * '~'
     jalan('\x1b[1;91m[1] OVI ISLAM') 
-    print '\x1b[1;91m50 * '~' '
+    print 50 * '~'
     jalan('\x1b[1;92m[2] SHAWON MALLIK') 
     print 50 * '~'
     jalan('\x1b[1;93m[3] PINIK HOSSEN') 
