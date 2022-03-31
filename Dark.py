@@ -195,7 +195,7 @@ def main_input():
      time.sleep(3.5)
      menu()  
 
-    if mx=='1':
+    if mx=='5':
      os.system ('clear')
      print logo
      print ("")
@@ -216,7 +216,7 @@ def main_input():
      time.sleep(3.5)
      menu()  
 
-    if mx=='1':
+    if mx=='6':
      os.system ('clear')
      print logo
      print ("")
@@ -237,7 +237,7 @@ def main_input():
      time.sleep(3.5)
      menu()  
 
-    if mx=='1':
+    if mx=='7':
      os.system ('clear')
      print logo
      print ("")
