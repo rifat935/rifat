@@ -258,19 +258,47 @@ def main_input():
      time.sleep(3.5)
      menu()  
 
-    elif bch == '8':
-        os.system('xdg-open https://www.facebook.com/ps7cho.p1cch1')
-        time.sleep(1)
-        menu()
-    elif bch == '9':
-        os.system('xdg-open https://www.facebook.com/ps7cho.p1cch1')
-        time.sleep(1)
-        menu()
-    elif bch == '00':
-        exb()
-    else:
-        print '[!] Fill in correctly'
-        action()
+    if mx=='8':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
+
+    if mx=='9':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
     
 
 if __name__ == '__main__':
