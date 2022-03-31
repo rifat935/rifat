@@ -76,7 +76,7 @@ print '\033[1;93mCOME BACK FROM OUR FACEBOOK GROUP '
 print '' 
 print '' 
 print ''
-print '\033[1;92m Yes/No 
+print '\033[1;92m Yes/No '
 
 print ''
 name = raw_input('\x1b[1;92m\x1b[1;96m > ')
