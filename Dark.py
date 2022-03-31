@@ -1,6 +1,6 @@
-# Bangladesh-7-digit-All-Sim-Cloner
+# Vai brother Name Address
 
-# FACEBOOK :MD RIFAT HASAN REAE 
+# FACEBOOK : RIFAT 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
 
@@ -19,7 +19,7 @@ print  """
 \033[33m    \_)(_/\_/\_/ \___/(__)(____/\_/\_/(____)
 
 """ 
-psb('\x1b[1;32m      Text ')
+psb('\x1b[1;32m  Ahkono Onk kaj Baki ase  ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
@@ -85,7 +85,7 @@ print '\033[1;93m     COME BACK FROM OUR FACEBOOK GROUP '
 print '' 
 print '' 
 print ''
-print '\033[1;92m Yes/No '
+print '\033[1;92m     Yes/No '
 
 print ''
 name = raw_input('\x1b[1;92m\x1b[1;96m > ')
