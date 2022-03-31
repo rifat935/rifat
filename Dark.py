@@ -118,21 +118,27 @@ def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
     if mx=='1':
      os.system ('clear')
-     print logo
+     print logo """"
      print ("")
      print ("") 
      print ("") 
-     print ("\x1b[1;91m⊱⊰══════════════════════════════════════════⊱⊰")
+     print 50*'~'
      print ("\x1b[1;93m NAME        : OVI ISLAM") 
      print 50*'~' 
+     print ("")  
      print ("\x1b[1;96m HOMETOWN    : CHITTAGONG LAKSHMIFUR") 
+     print ("") 
+     print 50*'~' 
+     print ("") 
      print 50*'~' 
      print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
      print 50*'~' 
-     print ("\x1b[1;95m AGE         : 17+") 
-     print 50*'~' 
+     print ("")  
+     print ("\x1b[1;95m AGE         : 17+")  
+     print ("") 
+     print 50*'~'  
      print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
-     print ("\x1b[1;91m⊱⊰══════════════════════════════════════════⊱⊰")
+     print 50*'~'
      print ("")
      time.sleep(3.5)
      menu() 
