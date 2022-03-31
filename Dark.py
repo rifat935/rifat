@@ -113,9 +113,7 @@ def menu():
     print 50 * '-'
     jalan('\x1b[1;93m[00]  EXIT')
     print 50 * '-'
-
-    print "\x1b[1;96m[!]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
-    print "\x1b[1;91m"
+    print "\x1b[1;96m[!]\x1b[1;96m SELECT VAI BROTHER\x1b[1;93mNAME"
     print 50*'-' 
     main_input()
 def main_input():
