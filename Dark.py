@@ -134,16 +134,10 @@ def main_input():
      print "\x1b[1;91mFill in correctly"
      pilih_super()
 
-    elif bch == '2':
-        os.system('clear')
-        print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m018'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
+    elif mx=='2':
+        os.system("xdg-open https://wa.me/+8801926890544")
+        time.sleep(3)
+        main_system()
 
         except IOError:
             print '[!] File Not Found'
