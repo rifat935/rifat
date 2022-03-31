@@ -123,21 +123,15 @@ def main_input():
      print ("") 
      print ("") 
      print 50*'~'
-     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print ("\x1b[1;93m NAME        :➣ OVI ISLAM") 
      print 50*'~' 
-     print ("")  
-     print ("\x1b[1;96m HOMETOWN    : CHITTAGONG LAKSHMIFUR") 
-     print ("") 
+     print ("\x1b[1;96m HOMETOWN    :➣ CHITTAGONG LAKSHMIFUR") 
      print 50*'~' 
-     print ("") 
-     print 50*'~' 
-     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
-     print 50*'~' 
-     print ("")  
-     print ("\x1b[1;95m AGE         : 17+")  
-     print ("") 
+     print ("\x1b[1;94m STUDY       :➣ INTER FAST YEAR") 
+     print 50*'~'
+     print ("\x1b[1;95m AGE         :➣ 17+")  
      print 50*'~'  
-     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print ("\x1b[1;92m RELATIONSHIP:➣ SINGLE") 
      print 50*'~'
      print ("")
      time.sleep(3.5)
