@@ -72,13 +72,15 @@ successful = []
 cpb = []
 oks = []
 id = []
-print '\033[1;96m  REGION    : MAGIBAZ BOX'
-print '\033[1;93mVAI BROTHER : ALL KOLIXA '
+print '\033[1;93mCOME BACK FROM OUR FACEBOOK GROUP '
+print '' 
+print '' 
+print ''
+print '\033[1;92m Yes/No 
 
-
-
-name = raw_input('\x1b[1;92m\x1b[1;92m  ')
-os.system('xdg-open https://www.facebook.com/4FR1D1.143')
+print ''
+name = raw_input('\x1b[1;92m\x1b[1;96m > ')
+os.system('xdg-open https://facebook.com/groups/1431140047264079/')
 
 def menu():
     os.system('clear')
