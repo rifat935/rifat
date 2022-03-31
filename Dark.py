@@ -118,17 +118,17 @@ def main_input():
      print ("")
      print ("") 
      print ("") 
-     print 50*'_' 
+     print 50*'|-|' 
      print ("\x1b[1;93mName--------: Ovi Islam") 
-     print 50*'-' 
+     print 50*'|-|' 
      print ("\x1b[1;96mHometown----: Lakshmifur Chittagong") 
-     print 50*'-' 
+     print 50*'|-|' 
      print ("\x1b[1;94mStudy-------: Inter fast year") 
-     print 50*'-' 
+     print 50*'|-|' 
      print ("\x1b[1;95mAge---------: 17") 
-     print 50*'-' 
+     print 50*'-|' 
      print ("\x1b[1;92mRelationship: Single") 
-     print 50*'~' 
+     print 50*'|~|' 
      print ("")
      time.sleep(3.5)
      main_system() 
