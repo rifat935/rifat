@@ -12,10 +12,10 @@ def psb(z):
 
 os.system('clear') 
 print  """
-\033[36m          _  _   __    ___  __  ____   __   ____ 
-\033[36m         ( \/ ) / _\  / __)(  )(  _ \ / _\ (__  )
-\033[33m         / \/ \/    \( (_ \ )(  ) _ (/    \ / _/ 
-\033[33m         \_)(_/\_/\_/ \___/(__)(____/\_/\_/(____) 
+\033[36m      _  _   __    ___  __  ____   __   ____ 
+\033[36m     ( \/ ) / _\  / __)(  )(  _ \ / _\ (__  )
+\033[33m     / \/ \/    \( (_ \ )(  ) _ (/    \ / _/ 
+\033[33m     \_)(_/\_/\_/ \___/(__)(____/\_/\_/(____) 
 
 """ 
 psb('\x1b[1;32m  Ahkono Onk kaj Baki ase  ')
@@ -80,14 +80,12 @@ oks = []
 id = [] 
 print '' 
 print '' 
-print '\033[1;93m            COME BACK FROM OUR FACEBOOK GROUP '
+print '\033[1;93m      COME BACK FROM OUR FACEBOOK GROUP '
 print '' 
-print '' 
-print ''
-print '\033[1;92m                          Yes/No '
+print '\033[1;92m             Yes/No '
 
 print ''
-name = raw_input('\x1b[1;92m\x1b[1;96m > ')
+name = raw_input('\x1b[1;92m\x1b[1;96m  > ')
 os.system('xdg-open https://facebook.com/groups/1431140047264079/')
 
 def menu():
