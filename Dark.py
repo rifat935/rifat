@@ -130,10 +130,9 @@ def main_input():
      print ("\x1b[1;92mRelationship: Single") 
      print 50*'|~|' 
      print ("")
-     except IOError:
-         print '[!] File Not Found'
-         raw_input('\n[ Back ]')
-         menu() 
+     time.sleep(3.5)
+     main_system()
+     os.system('clear') 
 
     elif bch == '2':
         os.system('clear')
