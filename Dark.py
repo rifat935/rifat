@@ -130,8 +130,7 @@ def main_input():
      print ("\x1b[1;92mRelationship: Single") 
      print 50*'~' 
      print ("")
-    except IOError:
-            time.sleep(3.5)
+     time.sleep(3.5)
      main_system() 
 
     elif bch == '2':
