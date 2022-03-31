@@ -134,15 +134,25 @@ def main_input():
      print "\x1b[1;91mFill in correctly"
      pilih_super()
 
-    elif mx=='2':
-        os.system("xdg-open https://wa.me/+8801926890544")
-        time.sleep(3)
-        main_system()
-
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
+    if mx=='2':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'|-|' 
+     print ("\x1b[1;93mName--------: Ovi Islam") 
+     print 50*'|-|' 
+     print ("\x1b[1;96mHometown----: Lakshmifur Chittagong") 
+     print 50*'|-|' 
+     print ("\x1b[1;94mStudy-------: Inter fast year") 
+     print 50*'|-|' 
+     print ("\x1b[1;95mAge---------: 17") 
+     print 50*'-|' 
+     print ("\x1b[1;92mRelationship: Single") 
+     print 50*'|~|' 
+     print ("")
+     time.sleep(3.5) 
 
     elif bch == '3':
         os.system('clear')
