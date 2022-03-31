@@ -130,9 +130,10 @@ def main_input():
      print ("\x1b[1;92mRelationship: Single") 
      print 50*'|~|' 
      print ("")
-     elif unikers =="3":
-          os.system('xdg-open https://m.youtube.com/channel/UCWLIAZHMlnlQMuMKTjBdbAQ')
-          menu()
+     except IOError:
+         print '[!] File Not Found'
+         raw_input('\n[ Back ]')
+         menu() 
 
     elif bch == '2':
         os.system('clear')
