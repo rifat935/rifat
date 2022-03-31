@@ -122,7 +122,7 @@ def main_input():
      print ("")
      print ("") 
      print ("") 
-     print 50*'~' 
+     print ("\x1b[1;91m⊱⊰══════════════════════════════════════════⊱⊰")
      print ("\x1b[1;93m NAME        : OVI ISLAM") 
      print 50*'~' 
      print ("\x1b[1;96m HOMETOWN    : CHITTAGONG LAKSHMIFUR") 
@@ -132,7 +132,7 @@ def main_input():
      print ("\x1b[1;95m AGE         : 17+") 
      print 50*'~' 
      print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
-     print 50*'~' 
+     print ("\x1b[1;91m⊱⊰══════════════════════════════════════════⊱⊰")
      print ("")
      time.sleep(3.5)
      menu() 
