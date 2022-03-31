@@ -13,14 +13,13 @@ def psb(z):
 os.system('clear') 
 print  """
  
-\033[36m _  _   __    ___  __  ____   __   ____ 
-\033[36m( \/ ) / _\  / __)(  )(  _ \ / _\ (__  )
-\033[33m/ \/ \/    \( (_ \ )(  ) _ (/    \ / _/ 
-\033[33m\_)(_/\_/\_/ \___/(__)(____/\_/\_/(____)
+\033[36m     _  _   __    ___  __  ____   __   ____ 
+\033[36m    ( \/ ) / _\  / __)(  )(  _ \ / _\ (__  )
+\033[33m    / \/ \/    \( (_ \ )(  ) _ (/    \ / _/ 
+\033[33m    \_)(_/\_/\_/ \___/(__)(____/\_/\_/(____)
 
 """ 
-
-psb('\x1b[1;32m VERTUAL TOP MAGIBAZ DER ADDA ')
+psb('\x1b[1;32m      Text ')
 for n in range(99869):
     nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
@@ -79,8 +78,10 @@ back = 0
 successful = []
 cpb = []
 oks = []
-id = []
-print '\033[1;93mCOME BACK FROM OUR FACEBOOK GROUP '
+id = [] 
+print '' 
+print '' 
+print '\033[1;93m     COME BACK FROM OUR FACEBOOK GROUP '
 print '' 
 print '' 
 print ''
