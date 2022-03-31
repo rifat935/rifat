@@ -91,11 +91,11 @@ os.system('xdg-open https://facebook.com/groups/1431140047264079/')
 def menu():
     os.system('clear')
     print logo  
-    print \x1b[1;91m50 * '~'
+    print '\x1b[1;91m50 * '~' '
     jalan('\x1b[1;91m[1] OVI ISLAM') 
-    print \x1b[1;91m50 * '~'
+    print '\x1b[1;91m50 * '~' '
     jalan('\x1b[1;92m[2] SHAWON MALLIK') 
-    print \x1b[1;91m50 * '~'
+    print 50 * '~'
     jalan('\x1b[1;93m[3] PINIK HOSSEN') 
     print 50 * '~'
     jalan('\x1b[1;92m[4] RAFI MAHMUD') 
@@ -110,9 +110,9 @@ def menu():
     print 50 * '~'
     jalan('\x1b[1;96m[9] ABAD XXX COM') 
     print ('')
-    print 50*'~'
+    print 50 *'~'
     print "\x1b[1;96m[!]\x1b[1;96m SELECT VAI BROTHER\x1b[1;96m NAME"
-    print 50*'~' 
+    print 50 *'~' 
     main_input()
 def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
