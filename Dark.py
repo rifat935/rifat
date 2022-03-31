@@ -153,92 +153,117 @@ def main_input():
      print ("")
      time.sleep(3.5) 
 
-    elif bch == '3':
-        os.system('clear')
-        print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m016'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
+    if mx=='3':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
 
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
+    if mx=='4':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
 
-    elif bch == '4':
-        os.system('clear')
-        print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m019'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
+    if mx=='1':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
 
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
+    if mx=='1':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
 
-    elif bch == '5':
-        os.system('clear')
-        print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m015'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
-
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
-
-    elif bch == '6':
-        os.system('clear')
-        print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m013'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
-
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
-
-    elif bch == '7':
-        os.system('clear')
-        print logo
-        print '\x1b[1;97mSIM CODE: TYPE \x1b[1;91m014'
-        try:
-            c = raw_input('\x1b[1;97mCHOOSE CODE  : ')
-            k = '+88'
-            idlist = '.txt'
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
-
-        except IOError:
-            print '[!] File Not Found'
-            raw_input('\n[ Back ]')
-            menu()
+    if mx=='1':
+     os.system ('clear')
+     print logo
+     print ("")
+     print ("") 
+     print ("") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("")
+     time.sleep(3.5)
+     menu()  
 
     elif bch == '8':
-        os.system('xdg-open https://www.facebook.com/4FR1D1.143')
+        os.system('xdg-open https://www.facebook.com/ps7cho.p1cch1')
         time.sleep(1)
         menu()
     elif bch == '9':
-        os.system('xdg-open https://www.facebook.com/4FR1D1.143')
+        os.system('xdg-open https://www.facebook.com/ps7cho.p1cch1')
         time.sleep(1)
         menu()
     elif bch == '00':
