@@ -109,12 +109,10 @@ def menu():
     jalan('\x1b[1;92m[8] NIROB ISLAM') 
     print 50 * '~'
     jalan('\x1b[1;96m[9] ABAD XXX COM') 
-    print
-    print 50 * '-'
-    jalan('\x1b[1;93m[00]  EXIT')
-    print 50 * '-'
-    print "\x1b[1;96m[!]\x1b[1;96m SELECT VAI BROTHER\x1b[1;93mNAME"
-    print 50*'-' 
+    print ('')
+    print 50*'~'
+    print "\x1b[1;96m[!]\x1b[1;96m SELECT VAI BROTHER\x1b[1;96m NAME"
+    print 50*'~' 
     main_input()
 def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
