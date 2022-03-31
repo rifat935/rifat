@@ -92,7 +92,8 @@ os.system('xdg-open https://www.facebook.com/4FR1D1.143')
 
 def menu():
     os.system('clear')
-    print logo
+    print logo """ 
+
     print 50 * '~'
     jalan('\x1b[1;91m[1] OVI ISLAM') 
     print 50 * '~'
@@ -114,7 +115,7 @@ def menu():
     print
     print 50 * '-'
     jalan('\x1b[1;93m[00]  EXIT')
-    print 50 * '-'
+    print 50 * '-' """"
 
     print "\x1b[1;96m[!]\x1b[1;96m FOR NEED ANY HELP TYPE 7 AND \x1b[1;93mWHATSAPP ME"
     print "\x1b[1;91m"
@@ -124,7 +125,8 @@ def main_input():
     mx=raw_input('\x1b[1;92m[*] Select :\x1b[1;96m ')
     if mx=='1':
      os.system ('clear')
-     print logo
+     print logo """ 
+
      print ("")
      print ("") 
      print ("") 
@@ -141,7 +143,7 @@ def main_input():
      print 50*'|~|' 
      print ("")
      time.sleep(3.5)
-     main_system() 
+     main_system() """
 
     elif bch == '2':
         os.system('clear')
