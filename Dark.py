@@ -118,36 +118,37 @@ def main_input():
      print ("")
      print ("") 
      print ("") 
-     print 50*'-' 
-     print ("\x1b[1;93mNAME--------: SHAWON MALLIK") 
-     print 50*'-' 
-     print ("\x1b[1;96mHOMETOWN----: RAJSAHI") 
-     print 50*'-' 
-     print ("\x1b[1;94mSTUDY-------: HONARS 1ST") 
-     print 50*'-' 
-     print ("\x1b[1;95mAGE---------: 20") 
-     print 50*'-' 
-     print ("\x1b[1;92mRELATIONSHIP: SINGLE") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : OVI ISLAM") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : LAKSHMIFUR CHITTAGONG") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : INTER FAST YEAR") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 17") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
      print 50*'~' 
      print ("")
      time.sleep(3.5)
-     
+     menu() 
+
     if mx=='2':
      os.system ('clear')
      print logo
      print ("")
      print ("") 
      print ("") 
-     print 50*'-' 
-     print ("\x1b[1;93mName--------: Ovi Islam") 
-     print 50*'-' 
-     print ("\x1b[1;96mHometown----: Lakshmifur Chittagong") 
-     print 50*'-' 
-     print ("\x1b[1;94mStudy-------: Inter fast year") 
-     print 50*'-' 
-     print ("\x1b[1;95mAge---------: 17") 
-     print 50*'-' 
-     print ("\x1b[1;92mRelationship: Single") 
+     print 50*'~' 
+     print ("\x1b[1;93m NAME        : SHAWON MALLIK") 
+     print 50*'~' 
+     print ("\x1b[1;96m HOMETOWN    : RAJSAHI") 
+     print 50*'~' 
+     print ("\x1b[1;94m STUDY       : HONARS 1ST") 
+     print 50*'~' 
+     print ("\x1b[1;95m AGE         : 20") 
+     print 50*'~' 
+     print ("\x1b[1;92m RELATIONSHIP: SINGLE") 
      print 50*'~' 
      print ("")
      time.sleep(3.5) 
