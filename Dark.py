@@ -131,8 +131,8 @@ def main_input():
      print 50*'|~|' 
      print ("")
      time.sleep(3.5)
-     main_system()
-     os.system('clear') 
+     print "\x1b[1;91mFill in correctly"
+     pilih_super()
 
     elif bch == '2':
         os.system('clear')
