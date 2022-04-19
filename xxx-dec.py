@@ -110,8 +110,7 @@ def sarfraz():
     ipm = requests.get(url_ip).json()
     todz = ''
     IP = ipm['origin']
-    print('') 
-    print(
+    print('')
     print('[1] START FILE CLONING')
     print('[2] EXIT')
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
