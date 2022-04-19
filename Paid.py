@@ -392,5 +392,7 @@ class load:
             time.sleep(0.1)
         print('\n')
 
-sarfraz()
+if __name__ == '__main__':
+ 
+    sarfraz()
 
