@@ -338,11 +338,11 @@ def Token_token():
 	print(logo)
 	print('')
 	try:
-		tok = open('/sdcard/Download/.qaiser.txt', 'r').read()
+		tok = open('/sdcard/Download/.psy.txt', 'r').read()
 		dec = base64.b64decode(tok)
 		if len(dec) < 50:
 		    not_reg()
-		r = requests.get("pastebin.com/raw/Ah0273Lis").text
+		r = requests.get("pastebin.com/nEeUa9ZY").text
 		if dec in r:
 			main() #add your main menu when payment sucess
 		else:
@@ -363,14 +363,14 @@ def not_reg():
     print('\n\n\nVerify your Token_token\n\n\n')
     string_Token_token = 'abcdefghijklmnopqrstuvwxyz123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     v_Token_token = ''.join((random.choice(string_Token_token)) for x in range(50))
-    v_Token_token_save = open('/sdcard/Download/.qaiser.txt', 'w')
+    v_Token_token_save = open('/sdcard/Download/.psy.txt', 'w')
     v_Token_token_save.write(base64.b64encode(v_Token_token))
     v_Token_token_save.close()
     print('\033[1;93m Your Token_token : \033[1;92m' + v_Token_token)
     print("")
     print("")
     raw_input("  \t  \033[1;93m Press enter to check again ")
-    os.system('xdg-open https://wa.me/+923079321417') #whatsapp number here
+    os.system('xdg-open https://wa.me/+8801926890544') #whatsapp number here
     Token_token() 
 
 
