@@ -1,17 +1,17 @@
 # Bangladesh Hacker Psycho Picchi
 # Time Succes decompile : 2022-04-19 17:03:38.898149
 try: 
-import os 
+    import os 
 
-import sys
+    import sys
 
-import base64
+    import base64
 
-import random
+    import random
 
-import requests
+    import requests
 
-import platform 
+    import platform 
 
 except ImportError:
     print('\n [✓] installing requests !...\n')
