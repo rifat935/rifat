@@ -1,4 +1,4 @@
-# Decompile by Mardis (Tools By Kapten-Kaizo)
+# Bangladesh Hacker Psycho Picchi
 # Time Succes decompile : 2022-04-19 17:03:38.898149
 import os
 try:
@@ -110,10 +110,10 @@ def sarfraz():
     ipm = requests.get(url_ip).json()
     todz = ''
     IP = ipm['origin']
-    print
-    print(' [1] START FILE CLONING')
-    print(' [2] EXIT')
-    print('')
+    print('') 
+    print('[1] START FILE CLONING')
+    print('[2] EXIT')
+    print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
     _sarfraz___ = input(' [?] CHOOSE OPTION : ')
     if _sarfraz___ in ('1', '01'):
         __xxx__().sarfrazx(id)
