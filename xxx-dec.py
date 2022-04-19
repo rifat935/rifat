@@ -111,10 +111,11 @@ def sarfraz():
     todz = ''
     IP = ipm['origin']
     print('') 
+    print(
     print('[1] START FILE CLONING')
     print('[2] EXIT')
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-    _sarfraz___ = input(' [?] CHOOSE OPTION : ')
+    _sarfraz___ = input('[?] CHOOSE OPTION : ')
     if _sarfraz___ in ('1', '01'):
         __xxx__().sarfrazx(id)
     if _sarfraz___ in ('0', '00'):
@@ -278,10 +279,11 @@ class __xxx__:
             os.system("clear")
             print(logo)
             print("\033[1;36m\rUSE FLIGHT (airplane) MODE ON\033[1;32m")
-            print(50*"-")
-            print('\033[1;32mTOTAL IDS : %s ' % len(self.id))
-            print('\033[1;32mCRACKING STARTED.....')
-            print(50*"-")
+            print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+            print('\033[1;36m[✔︎] TOTAL IDS : %s ' % len(self.id))
+            print('\033[1;36m[✔︎] CRACKING STARTED.....') 
+            print('\033[1;36m[✘] TO STOP PROCESS PRESS CTRL+Z')
+            print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # Psycho Picchi Bangladesh Hacker
                     try:
@@ -330,8 +332,8 @@ def bnsbuy():
         print
         print('\rTool Price 350rs\n')
         print
-        print('\rjazzcash Account Number 03033212619\n')
-        print('\rAccount Name Nazeer Ahmed\n')
+        print('\rBikash Account Number +8801926890544\n')
+        print('\rAccount Name Ornil Farabi Rifat\n')
         print
         print
         print('\rPayment Successfully Msg Or Token Send\n')
@@ -343,14 +345,14 @@ def bnsbuy():
         print('\n')
         print('\rYour Request Submitted Please wait  ')
         tks = 'Hello%20Admin%20Approval%20my%20key.%20payment%20Done,%20%20Information%20:-%20%20%20Track%20Msg%20:%20%20'+sb+'%20Token%20:%20'+ss
-        os.system('am start https://wa.me/+923206620269?text=' + tks)
+        os.system('am start https://wa.me/+8801926890544?text=' + tks)
 
 def bnsreg():
     os.system('clear')
     print (logo)
     print ('\x1b[1;97m\tYour Token Is Not Subscribed\n')
     print
-    id = str(uuid.uuid1(uuid.getnode(),0))[24:].upper() + "~SSB=="
+    id = str(uuid.uuid1(uuid.getnode(),0))[24:].upper() + "~psycho=="
     print
     print ('\n\x1b[1;97m Your Token: \x1b[97m' + id + '\n')
     print
