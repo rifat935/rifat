@@ -240,7 +240,8 @@ class __xxx__:
 
     def __pler__(self):
         print('[1] CRACK WITH AUTO PASS ')
-        print('[2] CRACK WITH NAME DIGIT PASS')
+        print('[2] CRACK WITH NAME DIGIT PASS') 
+        print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
         chi = input('\n[?] CHOOSE : ')
         if chi == '':
             print('\nSELECT CORRECT ONE')
