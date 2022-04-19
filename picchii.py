@@ -335,8 +335,8 @@ def bnsbuy():
         sarfraz()
 def Token_token():
 	os.system("clear")
-	print logo
-	print("")
+	print(logo)
+	print('')
 	try:
 		tok = open('/sdcard/Download/.qaiser.txt', 'r').read()
 		dec = base64.b64decode(tok)
