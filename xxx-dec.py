@@ -247,12 +247,12 @@ class __xxx__:
             self.__pler__()
         elif chi in ('1', '01'):
             os.system("clear")
-            print(logo) 
-            print ('')
+            print(logo)
             print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
             print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
-            print('\033[1;36mCRACKING STARTED.....')
+            print('\033[1;36mCRACKING STARTED.....') 
+            print ('\033[1;36mTo Stop Process Press Ctrl+z')
             print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # PSYCHO PICCHI BANGLADESH HACKER
