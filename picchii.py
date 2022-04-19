@@ -1,6 +1,5 @@
 # Bangladesh Hacker Psycho Picchi
 # Time Succes decompile : 2022-04-19 17:03:38.898149
-import os
 try: 
 import os 
 
