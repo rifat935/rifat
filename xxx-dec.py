@@ -249,10 +249,10 @@ class __xxx__:
             os.system("clear")
             print(logo)
             print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
-            print(50*"-")
+            print('=========================================================')
             print('\033[1;36mTOTAL IDS : %s ' % len(self.id))
             print('\033[1;36mCRACKING STARTED.....')
-            print(50*"-")
+            print('=========================================================')
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # PSYCHO PICCHI BANGLADESH HACKER
                     try:
