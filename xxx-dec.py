@@ -101,11 +101,28 @@ def hasil(OK,cp):
 def sarfraz():
 
 
+CorrectUsername = 'PSYCHO'
+CorrectPassword = 'PICCHI'
+loop = 'true'
+while loop == 'true':
+    username = raw_input('\x1b[1;94m\x1b[1;92mUSERNAME > \x1b[1;90m\x1b[1;92m')
+    if username == CorrectUsername:
+        password = raw_input('\x1b[1;94m\x1b[1;92mPASSWORD > \x1b[1;90m\x1b[1;92m')
+        if password == CorrectPassword:
+            print '\033[0;94mLogged in \033[0;91msuccessfully as ' + username
+            time.sleep(2)
+            loop = 'false'
+        else:
+            print '\x1b[1;97mWrong Password'
+            os.system('xdg-open https://www.facebook.com/ps7c8o.p133h1')
+    else:
+        print '\x1b[1;97mWrong Username'
+        os.system('xdg-open https://www.facebook.com/ps7c8o.p133h1')
+ 
+def menu():
+    os.system('clear') 
 
 
-        
-  
-    os.system('clear')
     print(logo)
     ipm = requests.get(url_ip).json()
     todz = ''
