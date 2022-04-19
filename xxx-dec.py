@@ -149,7 +149,7 @@ class __xxx__:
             self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r\x1b[1;96m[PSY-PICCHI]\033[0;93m {loop} | \033[0;93m {len(self.id)} \033[0;92mOK-{len(ok)} / \033[0;91mCP-{len(cp)} ")
+        sys.stdout.write(f"\r\x1b[1;96m[PSY-PICCHI]\033[0;92m {loop} \033[0;96m|\033[0;91m {len(self.id)} \033[0;92mOK-{len(ok)} / \033[0;91mCP-{len(cp)} ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
