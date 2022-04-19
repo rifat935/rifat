@@ -79,7 +79,6 @@ logo =                                          """
 \033[0;96m(__)  (__)\___)\___)\_)(_/(__) 
  
  
- 
 \033[0;93m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 \033[0;91mAUTHOR   : PSYCHO PICCHI
  
@@ -250,9 +249,9 @@ class __xxx__:
             print(logo)
             print("\033[1;91m\rUSE FLIGHT (airplane) MODE ON\033[1;96m")
             print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
-            print('\033[1;36m[✔︎]TOTAL IDS : %s ' % len(self.id))
-            print('\033[1;36m[✔︎]CRACKING STARTED.....') 
-            print('\033[1;36m[✘]TO STOP PROCESS PRESS CTRL+Z')
+            print('\033[1;36m[✔︎] TOTAL IDS : %s ' % len(self.id))
+            print('\033[1;36m[✔︎] CRACKING STARTED.....') 
+            print('\033[1;36m[✘] TO STOP PROCESS PRESS CTRL+Z')
             print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
             with sarfrazssb(max_workers=30) as ssbworld:
                 for zsb in self.id: # PSYCHO PICCHI BANGLADESH HACKER
